@@ -12,6 +12,10 @@
   pnpm add -D drizzle-kit
   pnpm add dotenv
   pnpm add @libsql/client
+  # マイグレーションファイル生成
+  pnpm drizzle-kit generate
+  # データベースに適用
+  pnpm drizzle-kit push
   ```
 
 ## Refs
